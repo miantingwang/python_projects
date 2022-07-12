@@ -40,6 +40,9 @@ gameplay = True
 while gameplay == True:
     # pick a random person B
     chosen_B = pick_random_person()
+    # make sure that person B isn't the same as person A
+    while chosen_B == chosen_A:
+        chosen_B = pick_random_person()
     # print info of person B
     print(f"Against B: {chosen_B['name']}, a(n) {chosen_B['description'].lower()}, from {chosen_B['country']}.")
     

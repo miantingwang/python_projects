@@ -11,6 +11,7 @@ Description: Guess which number between 0 and 100 the computer is thinking. Try 
 ### [The Coffee Machine Simulator](https://github.com/miantingwang/python_projects/tree/main/beginner/coffee-machine)
 Description: This simple program simulates a coffee machine. To order a cup of espresso/latte/cappuccino, simply type the name of the coffee when prompted. After that, you will be prompted to insert your coins. The machine will take care of the rest! To check the remaining ingredients in the machine, type "report". To turn off the machine, type "off".
 
+## [Intermediate](https://github.com/miantingwang/python_projects/tree/main/intermediate)
 ### [The Coffee Machine Simulator - Remade with OOP](https://github.com/miantingwang/python_projects/tree/main/intermediate/coffee-maker-oop-remake)
 Description: Remade with OOP. Class blueprints and documents provided by Dr. Ashley Yu from the London AppBrewery. For detailed description of how this program works, please see **The Coffee Machine Simulator**.
 

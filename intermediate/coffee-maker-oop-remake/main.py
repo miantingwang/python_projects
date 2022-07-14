@@ -6,6 +6,8 @@ menu = Menu()
 cm = CoffeeMaker()
 mm = MoneyMachine()
 items = menu.get_items()
+
+# turning on the coffee maker :)
 coffee_making = True
 
 while coffee_making:
@@ -17,10 +19,12 @@ while coffee_making:
         cm.report()
         mm.report()
 
+    # when user turns off the machine
     elif user_order == 'off':
         coffee_making = False
-    # if the resources are sufficient to make the order,
 
+    # if the resources are sufficient to make the order,
+    # process the payment and make the order
     else:
         order = menu.find_drink(user_order)
         if cm.is_resource_sufficient(order):

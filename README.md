@@ -15,4 +15,6 @@ Description: This simple program simulates a coffee machine. To order a cup of e
 ### [The Coffee Machine Simulator - Remade with OOP](https://github.com/miantingwang/python_projects/tree/main/intermediate/coffee-maker-oop-remake)
 Description: Remade with OOP. Class blueprints and documents provided by Dr. Ashley Yu from the London AppBrewery. For detailed description of how this program works, please see **The Coffee Machine Simulator**.
 
-
+### [The True or False Quiz Game](https://github.com/miantingwang/python_projects/tree/main/intermediate/true-or-false-quiz-game)
+Description: Test your knowledge on random facts with the True or False Quiz Game! Can you answer all of them correctly? 
+Note: Question bank comes from **opentdb.com**. 

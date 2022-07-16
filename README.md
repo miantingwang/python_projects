@@ -18,3 +18,12 @@ Description: Remade with OOP. Class blueprints and documents provided by Dr. Ash
 ### [The True or False Quiz Game](https://github.com/miantingwang/python_projects/tree/main/intermediate/true-or-false-quiz-game)
 Description: Test your knowledge on random facts with the True or False Quiz Game! Can you answer all of them correctly? 
 Note: Question bank comes from **opentdb.com**. 
+
+### [The Turtle GUI Practice](https://github.com/miantingwang/python_projects/tree/main/intermediate/turtle-gui)
+Description:
+
+turtle_shapes: Timmy the turtle draws shapes from a triangle to a decagon.
+
+turtle_spirograph: Timmy the turtle draws a spirograph upon your request. Simply enter the number of circles you would like Timmy to draw.
+
+hirst_art: This program extracts the color palette from the image in the repository and creates dot arts inspired by Damien Hirst.

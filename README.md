@@ -22,8 +22,11 @@ Note: Question bank comes from **opentdb.com**.
 ### [The Turtle GUI Practice](https://github.com/miantingwang/python_projects/tree/main/intermediate/turtle-gui)
 Description:
 
-turtle_shapes: Timmy the turtle draws shapes from a triangle to a decagon.
+**turtle_shapes**: Timmy the turtle draws shapes from a triangle to a decagon.
 
-turtle_spirograph: Timmy the turtle draws a spirograph upon your request. Simply enter the number of circles you would like Timmy to draw.
+**turtle_spirograph**: Timmy the turtle draws a spirograph upon your request. Simply enter the number of circles you would like Timmy to draw.
 
-hirst_art: This program extracts the color palette from the image in the repository and creates dot arts inspired by Damien Hirst.
+**hirst_art**: This program extracts the color palette from the image in the repository and creates dot arts inspired by Damien Hirst.
+
+### [My Snake Game](https://github.com/miantingwang/python_projects/tree/main/intermediate/the-snake-game)
+Description: A classic game made with the Turtle GUI. Use the arrow keys to move the snake around. Eat the food to grow longer! Try to avoid the tail and the wall :P How far can you go?

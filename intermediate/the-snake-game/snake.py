@@ -1,4 +1,4 @@
-from turtle import Screen, Turtle
+from turtle import Turtle
 
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
@@ -6,6 +6,7 @@ UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
+
 
 class Snake:
 
@@ -16,14 +17,20 @@ class Snake:
 
     def create_snake(self):
         for pos in STARTING_POSITIONS:
-            new_pix = Turtle("square")
-            new_pix.color("black")
-            new_pix.up()
-            new_pix.goto(pos)
-            self.pix_list.append(new_pix)
+            self.add_pix(pos)
+
+    def add_pix(self, position):
+        new_pix = Turtle("square")
+        new_pix.color("black")
+        new_pix.up()
+        new_pix.goto(position)
+        self.pix_list.append(new_pix)
+
+    def grow(self):
+        self.add_pix(self.pix_list[-1].position())
 
     def move(self):
-        for pix_idx in range(2, 0, -1):
+        for pix_idx in range(len(self.pix_list)-1, 0, -1):
             pix_corr = self.pix_list[pix_idx - 1].position()
             self.pix_list[pix_idx].goto(pix_corr)
         self.head.forward(MOVE_DISTANCE)
@@ -43,3 +50,5 @@ class Snake:
     def right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
+
+
